@@ -20,7 +20,7 @@
   </script>
     
 
-  <title>Gridea | 一个静态博客写作客户端</title>
+  <title>Gridea | A static blog writing client </title>
   <meta name="description" content="Gridea | 一个静态博客写作客户端 | 记录生活、心情、知识、笔记、创意..." />
 </head>
 <body>
@@ -43,19 +43,11 @@
     <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
       
         <a href="/" class="block px-2 py-1 text-gray-500 font-semibold rounded hover:bg-gray-100 ">
-          首页
-        </a>  
-      
-        <a href="/docs" class="block px-2 py-1 text-gray-500 font-semibold rounded hover:bg-gray-100 mt-1 sm:mt-0 sm:ml-2">
-          文档
+          Home
         </a>  
       
         <a href="/themes" class="block px-2 py-1 text-gray-500 font-semibold rounded hover:bg-gray-100 mt-1 sm:mt-0 sm:ml-2">
-          主题市场
-        </a>  
-      
-        <a href="/blog" class="block px-2 py-1 text-gray-500 font-semibold rounded hover:bg-gray-100 mt-1 sm:mt-0 sm:ml-2">
-          博客
+          Themes
         </a>  
       
     </nav>
@@ -71,14 +63,17 @@
               <!-- <img class="h-40 inline-block" src="/media/gridea.png" alt="Gridea"> -->
             </div>
             <h1 class="mt-6 text-5xl font-bold text-gray-900 leading-tight relative z-10">
-              可以，写博客的那个劲儿又回来了
+              <!-- 可以，写博客的那个劲儿又回来了 -->
+              Yes, the energy of blogging is back!
             </h1>
             <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl font-thin">
-              Gridea 是一个静态博客写作客户端，帮助你更容易地构建并管理博客或任何静态站点。
+              <!-- Gridea 是一个静态博客写作客户端，帮助你更容易地构建并管理博客或任何静态站点。 -->
+              Gridea is a static blog writing client that helps you build and manage blogs or any static site more easily.
             </p>
             <div class="flex justify-center items-center">
               <a href="#started" class="py-2 pl-4 pr-2 border border-2 border-black bg-black hover:bg-yellow-500 hover:text-gray-900 text-white shadow-lg text-lg mt-16 inline-block mx-4 inline-flex items-center transition duration-300">
-                立即开始
+                <!-- 立即开始 -->
+                Start Now
                 <i class="ri-arrow-right-s-line ml-2"></i>
               </a>
               <a href="https://github.com/getgridea/gridea" target="_blank" class="py-2 pl-2 pr-4 border border-2 border-gray-800 bg-white hover:bg-gray-200 text-black shadow-lg text-lg mt-16 inline-block mx-4 inline-flex items-center transition duration-300">
@@ -96,7 +91,7 @@
                 @click="activeImage = 'gridea'"
               >
                 <i class="ri-article-line mr-2"></i>
-                文章列表
+                Articles
               </div>
               <div
                 class="px-6 py-1 flex text-xs shadow-lg cursor-pointer"
@@ -104,7 +99,7 @@
                 @click="activeImage = 'editor'"
               >
                 <i class="ri-edit-circle-line mr-2"></i>
-                编辑器
+                Editor
               </div>
               <div
                 class="px-6 py-1 flex text-xs shadow-lg cursor-pointer rounded-tr rounded-br"
@@ -112,7 +107,7 @@
                 @click="activeImage = 'theme-setting'"
               >
                 <i class="ri-settings-line mr-2"></i>
-                主题设置
+                Theme Setting
               </div>
             </div>
           </div>
@@ -123,7 +118,8 @@
         <div class="max-w-6xl px-8 py-24 w-full mx-auto lg:px-12">
           <h2 class="text-center font-semibold text-4xl mb-24">
             <div class="inline-block">
-              为什么你会喜欢使用 Gridea<span class="text-purple-500 absolute">。</span>
+              <!-- 为什么你会喜欢使用 Gridea<span class="text-purple-500 absolute">。</span> -->
+              Why You'll Love Using Gridea<span class="text-purple-500 absolute">。</span>
               <div class="w-16 bg-purple-500 rounded-sm mt-2" style="height: 2px;"></div>
             </div>
           </h2>
@@ -131,23 +127,30 @@
             <div class="text-center w-full md:w-1/3 px-3">
               <img src="/media/images/markdown.svg" class="w-32 h-32 inline-block">
               <div class="text-xl font-medium py-2">Markdown</div>
-              <div class="text-sm text-gray-600">知道你钟爱 Markdown 写作，我们也是</div>
+              <!-- <div class="text-sm text-gray-600">知道你钟爱 Markdown 写作，我们也是</div> -->
+              <div class="text-sm text-gray-600">We know you love Markdown writing, and so do we!</div>
             </div>
             <div class="text-center w-full md:w-1/3 px-3">
               <img src="/media/images/safe.svg" class="w-32 h-32 inline-block">
-              <div class="text-xl font-medium py-2">快且安全</div>
-              <div class="text-sm text-gray-600">Gridea 所有文件都在你的本地，构建为更快更安全的静态网站，无需管理数据库，向 Wordpress 说拜拜</div>
+              <!-- <div class="text-xl font-medium py-2">快且安全</div> -->
+              <div class="text-xl font-medium py-2">Fast and safe</div>
+              <!-- <div class="text-sm text-gray-600">Gridea 所有文件都在你的本地，构建为更快更安全的静态网站，无需管理数据库，向 Wordpress 说拜拜</div> -->
+              <div class="text-sm text-gray-600">Gridea all your files locally, build a faster and more secure static website without having to manage a database, and say goodbye to Wordpress!</div>
             </div>
             <div class="text-center w-full md:w-1/3 px-3">
               <img src="/media/images/simple.svg" class="w-32 h-32 inline-block">
-              <div class="text-xl font-medium py-2">简而不凡</div>
-              <div class="text-sm text-gray-600">简单几步即可搭建网站。无论博客抑或企业站点，强大的自定义能力，轻松驾驭</div>
+              <!-- <div class="text-xl font-medium py-2">简而不凡</div> -->
+              <div class="text-xl font-medium py-2">Simple and Unusual</div>
+              <!-- <div class="text-sm text-gray-600">简单几步即可搭建网站。无论博客抑或企业站点，强大的自定义能力，轻松驾驭</div> -->
+              <div class="text-sm text-gray-600">A few simple steps to build a website. Whether it's a blog or an enterprise site, powerful customization capabilities, easy to navigate!</div>
             </div>
           </div>
           <div class="mt-16 text-center">
-            <div class="text-xs font-thin">还有你搭建网站最关心的(部分功能需要主题支持)：</div>
+            <!-- <div class="text-xs font-thin">还有你搭建网站最关心的(部分功能需要主题支持)：</div> -->
+            <div class="text-xs font-thin">And what you care most about building your website (some features require theme support).</div>
             <div class="text-xs font-thin mt-1 text-gray-500">
-              主题、封面图、标签、菜单、多平台部署、评论、多语言、RSS、KaTeX 公式、Google Analytics、社交链接、TOC...
+              <!-- 主题、封面图、标签、菜单、多平台部署、评论、多语言、RSS、KaTeX 公式、Google Analytics、社交链接、TOC... -->
+              Themes, cover art, tags, menus, multi-platform deployment, comments, multilingual, RSS, KaTeX formula, Google Analytics, social links, TOC...
             </div>
           </div>
         </div>
@@ -157,7 +160,8 @@
         <div class="max-w-6xl px-8 py-24 w-full mx-auto lg:px-12">
           <h2 class="text-center font-semibold text-4xl mb-24">
             <div class="inline-block">
-              主 题<span class="text-pink-500 absolute">。</span>
+              <!-- 主 题<span class="text-pink-500 absolute">。</span> -->
+              Theme<span class="text-pink-500 absolute">。</span>
               <div class="w-16 bg-pink-500 rounded-sm mt-2" style="height: 2px;"></div>
             </div>
           </h2>
@@ -179,7 +183,8 @@
             <div class="text-center mt-8">
               <a href="/themes/" class="px-4 py-2 bg-pink-500 text-white inline-block mx-auto shadow-lg inline-flex items-center">
                 <i class="ri-t-shirt-line mr-2"></i>
-                浏览更多
+                <!-- 浏览更多 -->
+                Browse More
               </a>
             </div>
           </div>
@@ -190,14 +195,17 @@
         <div class="max-w-6xl px-8 py-24 w-full mx-auto lg:px-12">
           <h2 class="text-center font-semibold text-4xl mb-24">
             <div class="inline-block">
-              更多人选择<span class="text-orange-500 absolute">。</span>
+              <!-- 更多人选择<span class="text-orange-500 absolute">。</span> -->
+              More people choose<span class="text-orange-500 absolute">。</span>
               <div class="w-16 bg-orange-500 rounded-sm mt-2" style="height: 2px;"></div>
             </div>
           </h2>
           <div class="text-center text-xl">
-            已经有超过 <span class="text-3xl text-orange-500">14,912</span> 位小伙伴使用 Gridea 成功搭建了自己的站点
+            <!-- 已经有超过 <span class="text-3xl text-orange-500">14,912</span> 位小伙伴使用 Gridea 成功搭建了自己的站点 -->
+            More than <span class="text-3xl text-orange-500">14,912</span> partners have successfully built their sites with Gridea!
           </div>
-          <div class="text-center text-xs text-gray-600 mt-8">统计数据非实时更新。</div>
+          <!-- <div class="text-center text-xs text-gray-600 mt-8">统计数据非实时更新。</div> -->
+          <div class="text-center text-xs text-gray-600 mt-8">Statistics are not updated in real time.</div>
         </div>
       </div>
       <!-- 选择你的版本 -->
@@ -205,7 +213,8 @@
         <div class="max-w-6xl px-8 py-24 w-full mx-auto lg:px-12" id="started">
           <h2 class="text-center font-semibold text-4xl mb-24">
             <div class="inline-block">
-              选择你的版本<span class="text-green-500 absolute">。</span>
+              <!-- 选择你的版本<span class="text-green-500 absolute">。</span> -->
+              Choose your version<span class="text-green-500 absolute">。</span>
               <div class="w-16 bg-green-500 rounded-sm mt-2" style="height: 2px;"></div>
             </div>
           </h2>
@@ -233,15 +242,16 @@
             </a>
           </div>
           <div class="flex justify-center items-center text-sm mt-8 text-gray-600">
-            当前版本: v{{ version }}
+            <!-- 当前版本: v{{ version }} -->
+            Current Version: v{{ version }}
             <a href="https://github.com/getgridea/gridea/releases" target="_blank" class="ml-2 text-blue-500">✨ What's new?</a>
           </div>
-          <div class="text-center my-8">国内 Gitee 下载源</div>
+          <!-- <div class="text-center my-8">国内 Gitee 下载源</div>
           <div class="flex justify-center flex-col md:flex-row">
               <div class="mx-2 text-blue-500 cursor-pointer" @click="downloadApp('https://gitee.com/fehey/gridea/releases/v0.9.2', { version, download_platform: 'gitee', platform: 'mac' })">Mac OS</div>
               <div class="mx-2 text-blue-500 cursor-pointer" @click="downloadApp('https://gitee.com/fehey/gridea/releases/v0.9.2', { version, download_platform: 'gitee', platform: 'windows' })">Windows</div>
               <div class="mx-2 text-blue-500 cursor-pointer" @click="downloadApp('https://gitee.com/fehey/gridea/releases/v0.9.2', { version, download_platform: 'gitee', platform: 'linux' })">Linux</div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -253,15 +263,18 @@
       method="post"
       target="popupwindow"
       onsubmit="window.open('https://tinyletter.com/gridea', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <input class="border border-gray-200 w-full text-gray-700 h-10 py-2 px-2 focus:outline-none" placeholder="你的邮箱" type="text" name="email" id="tlemail" />
+      <!-- <input class="border border-gray-200 w-full text-gray-700 h-10 py-2 px-2 focus:outline-none" placeholder="你的邮箱" type="text" name="email" id="tlemail" /> -->
+      <input class="border border-gray-200 w-full text-gray-700 h-10 py-2 px-2 focus:outline-none" placeholder="Your email address" type="text" name="email" id="tlemail" />
       <input type="hidden" value="1" name="embed"/>
       <button class="text-sm flex items-center flex-shrink-0 py-3 h-10 px-4 bg-gray-800 hover:bg-gray-900 text-white" type="submit">
         <i class="ri-mail-line mr-2"></i>
-        订阅更新
+        <!-- 订阅更新 -->
+        Subscribe
       </button>
     </form>
     <div class="text-gray-400 font-light my-8 md:my-0">
-      Powered by <a class="text-gray-800 font-normal" href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> · Made with ❤️ by <a class="text-gray-800 font-normal" href="https://github.com/EryouHao" target="_blank">EryouHao</a>
+      <!-- Powered by <a class="text-gray-800 font-normal" href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> · Made with ❤️ by <a class="text-gray-800 font-normal" href="https://github.com/EryouHao" target="_blank">EryouHao</a> -->
+      Powered by <a class="text-gray-800 font-normal" href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> · Made with ❤️ by <a class="text-gray-800 font-normal" href="https://twitter.com/EryouHao" target="_blank">EryouHao</a>
     </div>
     <div class="flex md:self-start justify-center">
       <a href="https://github.com/getgridea/gridea" target="_blank" class="p-2 border border-gray-200 rounded-full w-10 h-10 text-center mr-3 hover:bg-gray-900 hover:text-white">
